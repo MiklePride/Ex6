@@ -6,6 +6,6 @@
         int picturesAmount = 52;
         int amountRow = picturesAmount / picturesRow;
         int amountExtraPictures = picturesAmount % picturesRow;
-        Console.WriteLine("Количество заполненых стен = {0} \nКоличество лишних картинок = {1}", amountRow, amountExtraPictures);
+        Console.WriteLine("Количество заполненых стен = {0}\nКоличество лишних картинок = {1}", amountRow, amountExtraPictures);
     }
 }
