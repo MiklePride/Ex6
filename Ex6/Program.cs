@@ -2,9 +2,10 @@
 {
     static void Main(string[] args)
     {
-        int picturesInARow = 3;
+        int picturesRow = 3;
         int picturesAmount = 52;
-        Console.WriteLine("Количество заполненых рядов = " + picturesAmount / picturesInARow);
-        Console.WriteLine("Количество лишних картинок = " + picturesAmount % picturesInARow); 
+        int amountRow = picturesAmount / picturesRow;
+        int amountExtraPictures = picturesAmount % picturesRow;
+        Console.WriteLine("Количество заполненых стен = {0} \nКоличество лишних картинок = {1}", amountRow, amountExtraPictures);
     }
 }
